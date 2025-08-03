@@ -1,5 +1,0 @@
-*.xtc filter=lfs diff=lfs merge=lfs -text
-*.gro filter=lfs diff=lfs merge=lfs -text
-*.itp filter=lfs diff=lfs merge=lfs -text
-*.top filter=lfs diff=lfs merge=lfs -text
-*.tpr filter=lfs diff=lfs merge=lfs -text
