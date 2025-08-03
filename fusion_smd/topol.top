@@ -1,3 +1,45 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f55170d90e9ae12053375cbaffcd9ab29cc9ca8bb4454704b6caed16ded26fbd
-size 818
+#include "toppar/martini_v2.2.itp"
+
+#define RUBBER_BANDS
+
+#include "toppar/Protein_X_1.itp"
+#include "toppar/Protein_X_2.itp"
+#include "toppar/Protein_X_3.itp"
+
+#include "toppar/martini_v2.0_lipids_all_201506.itp"
+#include "toppar/martini_v2.0_ions.itp"
+
+[ system ]
+; name
+Martini system in water
+
+[ molecules ]
+; name        number
+Protein_X_1     1
+Protein_X_2     1
+Protein_X_3     1
+Protein_X_1     1
+Protein_X_2     1
+Protein_X_3     1
+Protein_X_1     1
+Protein_X_2     1
+Protein_X_3     1
+Protein_X_1     1
+Protein_X_2     1
+Protein_X_3     1
+CHOL 		1347
+POPC 		291
+POPE 		527
+POPS 		187
+POSM 		599
+CHOL            2167
+DPPC            799
+DPPE            511
+DOPS            389
+POPC            922
+POPE            615
+POSM            423
+W           	343306
+NA              3388
+CL              2800
+WF		38587
