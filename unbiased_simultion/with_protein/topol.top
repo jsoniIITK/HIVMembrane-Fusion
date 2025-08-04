@@ -1,0 +1,43 @@
+#include "toppar/martini_v2.2.itp"
+
+#define RUBBER_BANDS
+
+#include "toppar/Protein_X_1.itp"
+#include "toppar/Protein_X_2.itp"
+#include "toppar/Protein_X_3.itp"
+
+#include "toppar/martini_v2.0_lipids_all_201506.itp"
+#include "toppar/martini_v2.0_ions.itp"
+
+[ system ]
+; name
+Martini system in water
+
+[ molecules ]
+; name        number
+Protein_X_1     1
+Protein_X_2     1
+Protein_X_3     1
+Protein_X_1     1
+Protein_X_2     1
+Protein_X_3     1
+Protein_X_1     1
+Protein_X_2     1
+Protein_X_3     1
+Protein_X_1     1
+Protein_X_2     1
+Protein_X_3     1
+POPC 		514
+POPE 		974
+POPS 		355
+POSM 		1032
+DPPC            1272
+DPPE            814
+DOPS            619
+POPC            1468
+POPE            979
+POSM            674
+W           	378903
+WF		49492
+NA               2617
+CL               1631

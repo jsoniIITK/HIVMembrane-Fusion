@@ -1,0 +1,24 @@
+#include "toppar/martini_v2.2.itp"
+#include "toppar/martini_v2.0_lipids_all_201506.itp"
+#include "toppar/martini_v2.0_ions.itp"
+
+[ system ]
+; name
+Martini system in water
+
+[ molecules ]
+; name        number
+POPC 		514
+POPE 		974
+POPS 		355
+POSM 		1032
+DPPC            1272
+DPPE            814
+DOPS            619
+POPC            1468
+POPE            979
+POSM            674
+W           	386219
+NA              6764
+CL              5790
+WF		43121
